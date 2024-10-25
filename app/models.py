@@ -7,7 +7,6 @@ Base = automap_base()
 Base.prepare(engine, reflect=False)
 
 User = Base.classes.users  
-Role = Base.classes.roles
-Log = Base.classes.logs
-SmartContract = Base.classes.smart_contracts
+Product = Base.classes.products
+ProductType = Base.classes.product_types
 
